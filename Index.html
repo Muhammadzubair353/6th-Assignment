@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upwork | The World's Work Marketplace</title>
+
+    <style>
+        .header {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+            border-bottom: 1px solid grey;
+        }
+
+        .logo {
+            font-family: Arial, Helvetica, sans-serif;
+            margin-right: 10px;
+        }
+
+        select {
+            font-family: Arial, Helvetica, sans-serif;
+            border: none;
+            outline: none;
+            padding: 5px;
+            font-size: 12pt;
+        }
+        .Search {
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex-box;
+            align-items: center;
+            margin-left: 340px;
+            border: 2px solid rgb(173, 172, 172);
+            border-radius: 95px;
+            padding: 5px;
+            }
+        .AB{
+            border: none;
+            outline: none;
+        }
+        .button{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+            margin-right: 10px;
+            padding: 20px;
+
+        }
+        .login{
+            font-family: Arial, Helvetica, sans-serif;
+            display: flex;
+            align-items: center;
+            font-size: 12pt;
+            border: none;
+            outline: none;
+            background-color: white;
+            }
+        .Signup{
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-flex;
+            padding: 10px;
+            align-items: center;
+            font-size: 12pt;
+            border: 1px solid green;
+            background-color: green; 
+            border-radius: 95px;
+            color: white;
+            }
+        li{
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline;
+            margin-left: 20px;
+            
+        }
+        .outline{
+            display: flex;
+            align-items: center;
+            font-size: 11pt;
+            margin-left: -120px;
+            }
+        h1{
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 62pt;
+            font-weight:600;
+            color: rgb(3, 180, 3);
+            margin-top: 8%;
+            margin-left: 4%;
+            line-height:0%;
+        }
+        h2{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 18pt;
+            font-weight:600;
+            color: rgb(84, 85, 84);
+            line-height:2px;
+            margin-left: 4%;
+        }
+        
+        .back{
+            background-image: url(./Assets/searching-talent@1x.webp);
+            background-position: right;
+            background-repeat: no-repeat;
+            background-size: 35%;
+            margin-right: 4%;
+        }
+        .Selection{
+            font-family: Arial, Helvetica, sans-serif;
+            display: inline-flex;
+            padding: 15px;
+            align-items: center;
+            font-size: 10pt;
+            border: 1px solid green;
+            background-color: green; 
+            border-radius: 95px;
+            color: white;
+            margin-left: 4%;
+            }
+        h3{
+            font-family:Arial, Helvetica, sans-serif;
+            font-size: 13pt;
+            color: rgb(115, 116, 115);
+            line-height:2px;
+            margin-left: 4%;
+            padding-top: 25px;
+        }
+        ul{
+            margin-left: 4%;
+        }
+        .last{
+            display: flex;
+            margin:5%;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <img src="./Assets/2021-upwork-new-logo-design.png" alt="Logo" class="logo" height="70" width="100">
+        <select id="Find Talent" name="Find Talent">
+            <option value="Find Talent">Find Talent</option>
+        </select>
+        <select id="Find Work" name="Find Work">
+            <option value="Find Work">Find Work</option>
+        </select>
+        <select id="Find Talent" name="Find Talent">
+            <option value="Why Upwork">Why Upwork</option>
+        </select>
+        <p>Enterprise</p>
+        <div class="Search">
+                <input  class="AB" name="search" id="search" placeholder="Search"> 
+                <select id="Talent" name="Talent">
+                    <option value="Talent"> | Talent</option>
+                </select>
+        </div>
+        <div class="button">
+            <button type="button" class="login">Login</button>
+            <button type="button" class="Signup">Signup</button>
+        </div>
+    </div>
+    <div class="outline">
+        <ul>
+            <li>Development & IT</li>
+            <li>AI Services</li>
+            <li>Design & Creative</li>
+            <li>Sales & Marketing</li>
+            <li>Admin & Customer Support</li>
+        </ul>
+        <select id="More" name="More">
+            <option value="More">More</option>
+        </select>
+    </div>
+<div class="back">
+<p> 
+    <h1>How Work</h1>
+    <h1>Should Work</h1>
+    <br />
+    <h2>Forget the old rules. You can have the best people.</h2>
+    <h2>Right now. Right here.</h2>
+    <br />
+
+    <button class="Selection">Get Started</button>
+</p>
+</div>
+<div class="Trusted">
+    <h3>Trusted By</h3>
+    <ul>
+        <li><img src="./Assets/Microsoft-Logo.png" alt="Microsoft-Logo" height="60" width="110"></li>
+        <li><img src="./Assets/air bnb.png" alt="bnb" height="60" width="110"></li>
+        <li><img src="./Assets/bissell7681.jpg" alt="bissell7681" width="110" height="60"></li>
+    </ul>
+</div>
+<div class="last">
+    <img src="./Assets/upwork image.png" alt="up">
+</div>
+</body>
+</html>
